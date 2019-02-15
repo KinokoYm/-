@@ -1,0 +1,32 @@
+.comments-list{
+	margin:0;
+	padding:0;
+}
+.comments-list .comments-list-ul {
+	list-style: none;
+	/*background-color: #eee;*/
+	color: #999;
+	padding: 5px 0;
+	border-bottom: 1px dashed #eee
+}
+.comments-list .comments-list-ul  li{
+	font-size: 14px;
+	line-height: 30px;
+	margin: 15px 10px;
+}
+.comments-list .comments-list-ul  .comments-content span:first-child{
+	display: inline-block;
+	width: 50%;
+}	
+.comments-list .comments-list-ul  .comments-content span:nth-child(2){
+	display: inline-block;
+	width: 30%;
+}	
+.comments-list .comments-list-ul  .comments-content span:nth-child(3){
+	display: inline-block;
+	width: 10%;
+}	
+.comments-list .comments-list-ul  .comments-content span:nth-child(3) a:hover{
+	color: skyblue
+
+}	
